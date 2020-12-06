@@ -14,9 +14,8 @@ Esse e outros parâmetros são configurados no arquivo ora2pg.conf.
 1) Oracle Instant Client - para a migração é necessária a instalação do oracle instant client ou oracle versão completa.
 2) Instalação do ORA2PG;
 3) Configuração do ORA2PG (ora2pg.conf)
-###########################################################
 
-
+#################################################
 
 Instalando o Oracle Instant Client
 
@@ -105,7 +104,7 @@ PARTE 1.7) Consultar se o Banco de Dados Oracle está rodando (conferir no s.o. 
 
 	Se der certo a conexão, tentar acesso via sqlplus na máquina cliente.	
 	
-###################################################################################################
+#################################################
 
 Instalando o ORA2PG
 
@@ -131,7 +130,8 @@ PARTE 2.4) Instalando o ORA2PG
 	# perl Makefile.PL
     # make && make install	
 	
-###################################################################################################
+#################################################
+
 	
 Configurando o ORA2PG
 
