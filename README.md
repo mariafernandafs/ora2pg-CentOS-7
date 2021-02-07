@@ -28,14 +28,16 @@ Faça o download dos pacotes RPM do Instant Client desejados (trouxe p o linux-c
 	yum install oracle-instantclient12.2-jdbc-12.2.0.1.0-1.x86_64.rpm
 	yum install oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
 	
-Para confirmar a instalação, ir até o diretório /usr/lib/oracle/12.2/lib/ e confirmar a existência das bibliotecas compartilhadas (shared libraries)
+Para confirmar a instalação, ir até o diretório /usr/lib/oracle/12.2/lib/ e confirmar a existência das bibliotecas compartilhadas (shared libraries) - arquivos "libclntsh.so", "libclntsg.so.12.1", "libocci.so" e "libocci.so.12.1":
 #
 	ls /usr/lib/oracle/12.2/client64/lib/
-	as bibliotecas foram instaladas e os arquivos "libclntsh.so", "libclntsg.so.12.1", "libocci.so" e "libocci.so.12.1" foram pré criados
+o diretório de binários do sqlplus foi criado:
+# 	
 	ls /usr/lib/oracle/12.2/client64/bin/
-	o diretório de binários do sqlplus foi criado e 
+os cabeçalhos estão nesse diretório:
+# 
 	ls /usr/include/oracle/12.2/client64/
-	os cabeçalhos estão nesse diretório.
+	
   
 PARTE 1.2) Configurar a variável de ambiente (LD_LIBRARY_PATH, ORACLE_HOME e PATH)
 * LD_LIBRARY_PATH - inclui as bibliotecas compartilhadas do oracle;
