@@ -11,9 +11,9 @@ triggers, functions, procedures, tablespace, type, partition, fdw, mview, query,
 Que pode ocorrer em conjunto (schema completo) ou separadamente. 
 Esse e outros parâmetros são configurados no arquivo ora2pg.conf.
   
-* 1) Oracle Instant Client - para a migração é necessária a instalação do oracle instant client ou oracle versão completa.
-* 2) Instalação do ORA2PG;
-* 3) Configuração do ORA2PG (ora2pg.conf)
+* Oracle Instant Client - para a migração é necessária a instalação do oracle instant client ou oracle versão completa.
+* Instalação do ORA2PG;
+* Configuração do ORA2PG (ora2pg.conf)
 
 Instalando o Oracle Instant Client
 
@@ -34,7 +34,7 @@ Para confirmar a instalação, ir até o diretório /usr/lib/oracle/12.2/lib/ e 
 o diretório de binários do sqlplus foi criado:
 # 	
 	ls /usr/lib/oracle/12.2/client64/bin/
-os cabeçalhos estão nesse diretório:
+os cabeçalhos ficarão (por padrão) neste diretório:
 # 
 	ls /usr/include/oracle/12.2/client64/
 	
