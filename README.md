@@ -11,9 +11,9 @@ Que pode ocorrer em conjunto (schema completo) ou separadamente.
 Esse e outros parâmetros são configurados no arquivo ora2pg.conf.
   
 Requisitos:
-* Oracle Instant Client - para a migração é necessária a instalação do oracle instant client ou oracle versão completa.
+* Oracle Instant Client - para a migração é necessária a instalação do oracle instant client ou oracle versão completa;
 * Instalação do ora2pg;
-* Configuração do ora2pg (ora2pg.conf)
+* Configuração do ora2pg (ora2pg.conf);
 
 ## Instalando o Oracle Instant Client
 
