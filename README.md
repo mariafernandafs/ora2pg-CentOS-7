@@ -1,8 +1,7 @@
 # ora2pg-CentOS-7
 Procedimento de instalação da ferramenta ora2pg no sistema operacional centos 7.
 
-#####################  Instalando o ora2pg ##################### 
-
+* * * *
 Este documento tem como objetivo auxiliar na instalação da ferramenta ora2pg de forma simplificada.
 Ora2pg possui distribuição gratuita e serve para migrar dados dos bancos Oracle ou mySql para o Postgre. 
 
@@ -15,7 +14,7 @@ Esse e outros parâmetros são configurados no arquivo ora2pg.conf.
 * Instalação do ORA2PG;
 * Configuração do ORA2PG (ora2pg.conf)
 
-Instalando o Oracle Instant Client
+## Instalando o Oracle Instant Client
 
 PARTE 1) Depois de baixar os pacotes RPM no site abaixo, instalar o instant client
 	https://www.oracle.com/br/database/technologies/instant-client/linux-x86-64-downloads.html
