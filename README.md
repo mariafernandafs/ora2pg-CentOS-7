@@ -116,9 +116,8 @@ Se aparecer conectado é porque está se conectando com o banco (conforme o exem
 
 Se der certo a conexão, tentar acesso via sqlplus na máquina cliente.	
 	
-#################################################
 
-Instalando o ORA2PG
+## Instalando o ORA2PG
 
 PARTE 2) Baixar e instalar o cliente Git
 # 	
@@ -146,10 +145,8 @@ Ir até o diretório onde ele foi clonado do git
 	perl Makefile.PL
 	make && make install	
 	
-#################################################
-
 	
-Configurando o ORA2PG
+## Configurando o ORA2PG
 
 PARTE 3) Configurando o arquivo ora2pg.conf
 	Ir até a localização do arquivo
