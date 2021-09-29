@@ -3,7 +3,7 @@ Procedimento de instalação da ferramenta ora2pg no sistema operacional centos 
 
 * * * *
 Este documento tem como objetivo auxiliar na instalação da ferramenta ora2pg de forma simplificada.
-Ora2pg possui distribuição gratuita e serve para migrar dados dos bancos Oracle ou mySql para o Postgre. 
+Ora2pg possui distribuição gratuita e serve para migrar dados dos bancos Oracle ou MySQL para o Postgres. 
 
 O ora2pg uma vez instalado permite a migração de objetos como: tabelas, packages, views, grants, sequence, 
 triggers, functions, procedures, tablespace, type, partition, fdw, mview, query, dblink, synonym, directory.
