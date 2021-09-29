@@ -10,9 +10,10 @@ triggers, functions, procedures, tablespace, type, partition, fdw, mview, query,
 Que pode ocorrer em conjunto (schema completo) ou separadamente. 
 Esse e outros parâmetros são configurados no arquivo ora2pg.conf.
   
+Requisitos:
 * Oracle Instant Client - para a migração é necessária a instalação do oracle instant client ou oracle versão completa.
-* Instalação do ORA2PG;
-* Configuração do ORA2PG (ora2pg.conf)
+* Instalação do ora2pg;
+* Configuração do ora2pg (ora2pg.conf)
 
 ## Instalando o Oracle Instant Client
 
