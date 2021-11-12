@@ -92,7 +92,7 @@ Exemplo 4)
 #  
 	export ORACLE_SID=meuBancoLocal 
 
-PARTE 1.7) Consultar se o Banco de Dados Oracle está rodando (conferir no s.o. que ele está instalado) Consultar se o banco (no exemplo abaixo o banco possui nome "orcl", nome = orcl) está "READY"
+PARTE 1.7) Consultar se a instância está rodando (conferir no s.o. que ele está instalado - ou seja é necessário ter acesso no servidor onde o oracle está instalado) Consultar a instância (no exemplo abaixo o banco possui nome "orcl", nome = orcl) está "READY"
 # 
 	lsnrctl status 
 Se ele não estiver "READY", inicializar o banco com o comando
